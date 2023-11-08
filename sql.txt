@@ -1,0 +1,10 @@
+create table 
+Cliente (
+idCliente int auto_increment primary key,
+nomeCliente varchar (50) not null,
+cpfCliente varchar (11) unique not null,
+enderecoCliente varchar (50) not null,
+telefoneCliente varchar (9) not null,
+emailCliente varchar (20) not null,
+senhaCliente varchar (20) not null
+);
